@@ -5,7 +5,7 @@ import { projects } from "../config"
 export default function Home({theme}) {
   return (
       <div className='mt-4'>
-     <div className='flex items-center text-2xl'>
+     <div className='flex items-center space-x-1 text-2xl'>
           <FaCode className='text-purple-500/70'/>
           <p className='font-quicksand font-semibold'>My projects</p>
           </div>

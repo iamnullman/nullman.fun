@@ -14,14 +14,14 @@ export default function Home({theme}) {
           <p className='font-poppins font-bold'>I am a 3rd year high school student. My favorite activities are playing games, listening to music and sleeping. I can't think of much to say about my life.</p>
         </div>
         <div className='mt-16'>
-          <div className='flex items-center text-2xl'>
+          <div className='flex items-center space-x-1 text-2xl'>
           <FaGithub className='text-purple-500/70'/>
           <p className='font-quicksand font-semibold'>Repositories</p>
           </div>
           <GithubRepos repos={repos} theme={theme}/>
         </div>
         <div className='mt-16'>
-          <div className='flex items-center text-2xl'>
+          <div className='flex items-center space-x-1 text-2xl'>
           <FaBookmark className='text-purple-500/70'/>
           <p className='font-quicksand font-semibold'>Technologies I Use</p>
           </div>
