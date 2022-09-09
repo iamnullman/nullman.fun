@@ -9,7 +9,7 @@ export default function Document() {
         <title>NullMan</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" /> <script src="/js/warning.js" />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" /> 
    </Head>
       <body>
         <Main />

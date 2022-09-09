@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
     }
   }, []);
   return <>
-  <div data-theme={theme} class="min-h-screen">
+  <div data-theme={theme} className="min-h-screen">
     <main className="overflow-y-hidden md:overflow-y-visible min-h-[calc(100vh-14px)] max-w-screen-lg p-5 w-full md:py-10 md:w-10/12 lg:py-1 lg:w-[800px] mx-auto transition-all duration-300">
     <Navbar setTheme={setTheme} theme={theme}/>
    <Component {...pageProps} theme={theme}/>

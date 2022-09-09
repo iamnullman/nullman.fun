@@ -7,19 +7,19 @@ export default function GithubRepos({repos, theme}) {
     <div key={index + 1} className={(theme === "dark" ? "bg-gray-700" : "bg-gray-200")+ ' p-3 rounded-lg hover:scale-110 duration-500'}>
     <Link href={repo.html_url}>
       <a target='_blank'>
-     <div class="flex flex-row">
+     <div className="flex flex-row">
      <p className="font-bold text-sm">
      <span className='text-lg text-purple-500'>{repo.owner.login}</span>/{repo.name}
       </p>
 </div>
-<div class="grid grid-cols-3 items-center space-x-1 mt-2">
-<p class="flex items-center justify-start">
+<div className="grid grid-cols-3 items-center space-x-1 mt-2">
+<p className="flex items-center justify-start">
   <FaStar className='text-purple-500/70'/>
-  <span class="text-base font-semibold"> {repo.stargazers_count}</span>
+  <span className="text-base font-semibold"> {repo.stargazers_count}</span>
 </p>
-<div class="text-sm text-center px-2 py-1 rounded-md mr-1">{repo.language ? repo.language : repo.fork ? "Fork":"undefined"}</div>
- <p class="flex items-center  justify-end">
-  <span class="text-base font-semibold">{repo.forks_count}</span>
+<div className="text-sm text-center px-2 py-1 rounded-md mr-1">{repo.language ? repo.language : repo.fork ? "Fork":"undefined"}</div>
+ <p className="flex items-center  justify-end">
+  <span className="text-base font-semibold">{repo.forks_count}</span>
   <FaCodeBranch className='text-purple-500/70'/>
   </p>
 </div>

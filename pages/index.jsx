@@ -10,8 +10,8 @@ export default function Home({theme}) {
   return (
       <div className='mt-4'>
         <div data-aos="fade-up" data-aos-anchor-placement="top-center">
-          <h1 className='text-4xl text-left font-quicksand'><span className='text-purple-500'>Hi</span>, I'm nullman👋</h1>
-          <p className='font-poppins font-bold'>I am a 3rd year high school student. My favorite activities are playing games, listening to music and sleeping. I can't think of much to say about my life.</p>
+          <h1 className='text-4xl text-left font-quicksand'><span className='text-purple-500'>Hi</span>, I&apos;m nullman👋</h1>
+          <p className='font-poppins font-bold'>I am a 3rd year high school student. My favorite activities are playing games, listening to music and sleeping. I can&apos;t think of much to say about my life.</p>
         </div>
         <div className='mt-16'>
           <div className='flex items-center space-x-1 text-2xl'>
