@@ -35,21 +35,21 @@ export default function Home({theme}) {
           <p className='font-quicksand font-semibold'>Contact Me!</p>
           </div>
           <form onSubmit={submitContact} className="w-full space-y-4" autoComplete="off">
-           <div class="flex justify-center self-center z-10">
-        <div class="p-10 mx-auto rounded-2xl w-100 ">
-            <div class="space-y-5">
-                        <div class="space-y-2">
-                              <label class="text-sm font-medium text-base-500 tracking-wide">Email</label>
-              <input id="email" class=" w-full text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-purple-400" type="email" placeholder="mail@gmail.com"/>
+           <div className="flex justify-center self-center z-10">
+        <div className="p-10 mx-auto rounded-2xl w-100 ">
+            <div className="space-y-5">
+                        <div className="space-y-2">
+                              <label className="text-sm font-medium text-base-500 tracking-wide">Email</label>
+              <input id="email" className=" w-full text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-purple-400" type="email" placeholder="mail@gmail.com"/>
               </div>
-                          <div class="space-y-2">
-              <label class="mb-5 text-sm font-medium text-base-500 tracking-wide">
+                          <div className="space-y-2">
+              <label className="mb-5 text-sm font-medium text-base-500 tracking-wide">
                 Message
               </label>
-              <textarea id="content" class="w-full content-center text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-purple-400" type="text" placeholder="Enter your message"/>
+              <textarea id="content" className="w-full content-center text-base px-4 py-2 border  border-gray-300 rounded-lg focus:outline-none focus:border-purple-400" type="text" placeholder="Enter your message"/>
             </div>
             <div>
-              <button type="submit" class="w-full flex justify-center bg-purple-200  hover:bg-purple-500 text-black p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500" aria-disabled={submited ? true : false}>
+              <button type="submit" className="w-full flex justify-center bg-purple-200  hover:bg-purple-500 text-black p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500" aria-disabled={submited ? true : false}>
                 {submited ? <FaSpinner className='animate-spin'/> : "Submit"}
               </button>
             </div>
