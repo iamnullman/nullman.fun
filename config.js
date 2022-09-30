@@ -85,7 +85,7 @@ module.exports = {
             "image":"/icons/python.svg"
         },
         {
-            "name":"React Native",
+            "name":"React",
             "image":"/icons/react-native.svg"
         },
         {
@@ -124,15 +124,27 @@ module.exports = {
     "projects":[
         {
             "name":"AnimesWatch",
-            "thumb":"https://i.imgur.com/vAhklkx.gif",
+            "thumb":"/projects/animeswatch.gif",
             "desc":"A website where you can watch anime with Turkish subtitles without interruption and freezing.",
             "link":"https://animeswatch.com"
         },
         {
             "name":"Saely",
-            "thumb":"https://i.imgur.com/9rOYU1h.gif",
+            "thumb":"/projects/saely.gif",
             "desc":"Anime news site where you can follow the latest anime news quickly",
             "link":"https://saely.me"
+        },
+        {
+            "name":"Anon Chat",
+            "thumb":"/projects/soon.gif",
+            "desc":"(SOON) Online anonymous chat platform",
+            "link":false
+        },
+        {
+            "name":"Online Todo",
+            "thumb":"/projects/soon.gif",
+            "desc":"(SOON) Online todo application",
+            "link":false
         }
     ]
 }

@@ -8,7 +8,7 @@ export default function Navbar({setTheme, theme}) {
         <div className="navbar-item">
             <div className="flex items-center">
                 <div className="flex-shrink-0">
-                    <img className="h-8 w-8 rounded-full" src="https://images-ext-2.discordapp.net/external/BeQGS8Oooiv7I1YK_vg0HHEpVYZ6JzUKl74GhujSbtA/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/716930725877907466/bc58424614bfad0cdd636aca56b893e0.png?width=468&height=468" alt="Logo" />
+                    <img className="h-8 w-8 rounded-full" src="/logo.png" alt="Logo" />
                 </div>
                 <div className="ml-3">
                     <div className="text-base font-medium">NullMan</div>
@@ -25,6 +25,11 @@ export default function Navbar({setTheme, theme}) {
     <div className="navbar-item">
           <Link href={"/projects"}>
             <div className="text-base font-medium cursor-pointer hover:text-purple-500 duration-500">Projects</div>
+        </Link>
+    </div>
+    <div className="navbar-item">
+          <Link href={"/contact"}>
+            <div className="text-base font-medium cursor-pointer hover:text-purple-500 duration-500">Contact</div>
         </Link>
     </div>
         <label className="swap swap-rotate cursor-pointer hover:text-purple-500 duration-500">
