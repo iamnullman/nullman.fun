@@ -1,0 +1,98 @@
+[
+  {
+      "name": "JavaScript",
+      "icon": "/image/skills/javascript.svg"
+  }, 
+  {
+      "name": "TypeScript",
+      "icon": "/image/skills/typescript.svg"
+  },
+  {
+      "name": "C#",
+      "icon": "/image/skills/csharp.svg"
+  },
+  {
+      "name": "React",
+      "icon": "/image/skills/react.svg"
+  },
+  {
+      "name": "Next.js",
+      "icon": "/image/skills/nextjs.svg"
+  },
+  {
+      "name": "Node.js",
+      "icon": "/image/skills/nodejs.svg"
+  },
+  {
+      "name": "Express",
+      "icon": "/image/skills/express.svg"
+  },
+  {
+      "name": "MongoDB",
+      "icon": "/image/skills/mongodb.svg"
+  },
+  {
+      "name": "Fastify",
+      "icon": "/image/skills/fastify.svg"
+  },
+  {
+      "name": "HTML",
+      "icon": "/image/skills/html.svg"
+  },
+  {
+      "name": "CSS",
+      "icon": "/image/skills/css.svg"
+  },
+  {
+      "name": "Git",
+      "icon": "/image/skills/git.svg"
+  },
+  {
+      "name": "Github",
+      "icon": "/image/skills/github.svg"
+  },
+  {
+      "name": "Jenkins",
+      "icon": "/image/skills/jenkins.svg"
+  },
+  {
+      "name": "Bootstrap",
+      "icon": "/image/skills/bootstrap.svg"
+  },
+  {
+      "name": "TailwindCSS",
+      "icon": "/image/skills/tailwind.svg"
+  },
+  {
+      "name": "Material UI",
+      "icon": "/image/skills/mui.svg"
+  },
+  {
+      "name": "PHP",
+      "icon": "/image/skills/php.svg"
+  },
+  {
+      "name": "Svelte",
+      "icon": "/image/skills/svelte.svg"
+  },
+  {
+      "name": "Vue",
+      "icon": "/image/skills/vue.svg"
+  },
+  {
+      "name": "Sass",
+      "icon": "/image/skills/sass.svg"
+  },
+  {
+      "name": "Vercel",
+      "icon": "/image/skills/vercel.svg"
+  },
+  {
+      "name": "Yarn",
+      "icon": "/image/skills/yarn.svg"
+  },
+  {
+      "name": "Arduino",
+      "icon": "/image/skills/arduino.svg"
+  }
+]
